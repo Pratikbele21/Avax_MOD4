@@ -47,5 +47,5 @@ contract.methods.mint('RECEIVER_ADDRESS', 'AMOUNT').send({ from: 'OWNER_ADDRESS'
 ## Author ##
 PRATIK BELE 
 
-##License ##
+## License ##
 This project is licensed under the [MIT] License - see the LICENSE.md file for details
