@@ -16,7 +16,7 @@ getItemPrice: Retrieves the price of a specific item.
 getUserItem: Retrieves the item owned by a specific user.
 listAvailableItems: Lists all available items along with their prices.
 
-## implementation using ##
+## Implementation ##
 Deploy the contract on an Ethereum-compatible blockchain.
 Use a wallet or script to interact with the contract's functions.
 
