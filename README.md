@@ -32,13 +32,13 @@ Item Prices
         itemPrices["avax"] = 100;
     }
 ```
-
-javascript
+```
 // Deploy the contract
 const DegenToken = artifacts.require('DegenToken');
 module.exports = function (deployer) {
   deployer.deploy(DegenToken);
 };
+```
 
 // Interact with the contract
 const contract = new web3.eth.Contract(DegenToken.abi, 'CONTRACT_ADDRESS');
