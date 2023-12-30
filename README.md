@@ -38,12 +38,12 @@ const DegenToken = artifacts.require('DegenToken');
 module.exports = function (deployer) {
   deployer.deploy(DegenToken);
 };
-```
+
 
 // Interact with the contract
 const contract = new web3.eth.Contract(DegenToken.abi, 'CONTRACT_ADDRESS');
 contract.methods.mint('RECEIVER_ADDRESS', 'AMOUNT').send({ from: 'OWNER_ADDRESS' })
-
+```
 ## Author ##
 PRATIK BELE 
 
