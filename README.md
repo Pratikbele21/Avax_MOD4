@@ -21,6 +21,18 @@ Deploy the contract on an Ethereum-compatible blockchain.
 Use a wallet or script to interact with the contract's functions.
 
 ## Example ##
+Item Prices 
+
+```
+ constructor() ERC20("Degen", "DGN") {
+        // Set initial item prices
+        itemPrices["btc"] = 25;
+        itemPrices["sol"] = 50;
+        itemPrices["bnb"] = 75;
+        itemPrices["avax"] = 100;
+    }
+```
+
 javascript
 // Deploy the contract
 const DegenToken = artifacts.require('DegenToken');
